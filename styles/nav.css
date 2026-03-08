@@ -1,0 +1,22 @@
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.navbar ul
+{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li
+{
+    display: block;
+    padding: 10px;
+}

@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  
-<ul class="flex gap-6">
-    <li><a href="#">Accueil</a></li>
-    <li><a href="#">À propos</a></li>
-    <li><a href="#">Projets</a></li>
-    <li><a href="#">Contacts</a></li>
-  </ul>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alfredo Mamitina</title>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/nav.css">
+  <link rel="stylesheet" href="./styles/contact.css">
 
 </head>
 <body>
+
+  <div class="navbar">
+
+    <div>
+      <h1>LOGO</h1>
+    </div>
+
+    <ul>
+      <li><a href="/">Accueil</a></li>
+      <li><a href="#">À propos</a></li>
+      <li><a href="#projet">Projets</a></li>
+      <li><a href="#contact">Contacts</a></li>
+    </ul>
+  </div>
 
   <header>
     <div class="hero">
@@ -141,7 +150,7 @@
     </div>
 
     <!-- CARTE 6 — Projets -->
-    <div class="card">
+    <div class="card" id="projet">
       <h3><span class="num">VI.</span> Mes projets</h3>
       <div style="flex:1">
         <div class="project-item">
@@ -166,8 +175,8 @@
 
 
 
-        <div class="card" >
-              <h3><span class="num">VII.</span> Contacts</h3>
+        <div class="i-contact" id="contact">
+              <h3><span>VII.</span> Contacts</h3>
               <div style="flex:1">
                 <div class="project-item">
                   <div class="project-dot"></div>
